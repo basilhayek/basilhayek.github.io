@@ -1,6 +1,9 @@
+<!DOCTYPE html>
 <html>
 <head>
-<style>
+  <meta charset='utf-8'>
+  <title>Labeled Force Directed Graph</title>
+  <style>
 
 .links line {
   stroke: #999;
@@ -17,11 +20,11 @@ text {
   font-size: 10px;
 }
 
-</style>
-  </head>
+  </style>
+</head>
 <body>
-  <h1>Labeled Force-Directed Graph</h1>
   <svg width="960" height="600"></svg>
+</body>
 <script src="https://d3js.org/d3.v4.min.js"></script>
 <script>
 
@@ -32,22 +35,24 @@ var svg = d3.select("svg"),
 var color = d3.scaleOrdinal(d3.schemeCategory20);
 
 var simulation = d3.forceSimulation()
-    .force("link", d3.forceLink().id(function(d) { return d.id; }))
+    .force("link", d3.forceLink()
+      .distance(60)
+      .id(function(d) { return d.id; }))
     .force("charge", d3.forceManyBody())
     .force("center", d3.forceCenter(width / 2, height / 2));
 
-d3.json("data.json", function(error, graph) {
+d3.json("ecosystem.json", function(error, graph) {
   if (error) throw error;
 
   var link = svg.append("g")
-      .attr("class", "links")
+    .attr("class", "links")
     .selectAll("line")
     .data(graph.links)
     .enter().append("line")
-      .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
+    .attr("stroke-width", function(d) { return Math.sqrt(d.value); });
 
   var node = svg.append("g")
-      .attr("class", "nodes")
+    .attr("class", "nodes")
     .selectAll("g")
     .data(graph.nodes)
     .enter().append("g")
@@ -60,7 +65,7 @@ d3.json("data.json", function(error, graph) {
           .on("drag", dragged)
           .on("end", dragended));
 
-  var lables = node.append("text")
+  var labels = node.append("text")
       .text(function(d) {
         return d.id;
       })
@@ -75,7 +80,9 @@ d3.json("data.json", function(error, graph) {
       .on("tick", ticked);
 
   simulation.force("link")
-      .links(graph.links);
+      .links(graph.links)
+      .distance(function(d) { return Math.sqrt(30) / Math.sqrt(d.value) * 30; })
+      .strength(function(d) { return d.value / 30; });
 
   function ticked() {
     link
@@ -109,5 +116,4 @@ function dragended(d) {
 }
 
 </script>
-</body>
 </html>
