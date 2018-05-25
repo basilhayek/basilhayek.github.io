@@ -34,6 +34,8 @@ $("#timecard").submit(function(e) {
 
     var url = "http://www.opadoc.com/timecard"; // the script where you handle the form input.
 
+    alert($("#timecard").serialize())
+
     $.ajax({
            type: "POST",
            url: url,
