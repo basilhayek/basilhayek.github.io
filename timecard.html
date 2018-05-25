@@ -37,7 +37,8 @@ $("#timecard").submit(function(e) {
     alert($("#timecard").serialize())
 
     $.ajax({
-           type: "POST",
+           type: "GET",
+		   dataType: "json",
            url: url,
            data: $("#timecard").serialize(), // serializes the form's elements.
            success: function(data)
@@ -47,6 +48,7 @@ $("#timecard").submit(function(e) {
          });
 
     e.preventDefault(); // avoid to execute the actual submit of the form.
+
 });
 </script>
 </html>
