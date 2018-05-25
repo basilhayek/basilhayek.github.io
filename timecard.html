@@ -39,6 +39,7 @@ $("#timecard").submit(function(e) {
     $.ajax({
            type: "GET",
 		   dataType: "jsonp",
+	    jsonp: "callback",
            url: url,
            data: $("#timecard").serialize(), // serializes the form's elements.
            success: function(data)
