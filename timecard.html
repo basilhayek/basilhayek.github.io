@@ -11,7 +11,7 @@
 
 <div data-role="page" id="page" style="width:320px; height:480px;">
 	<div data-role="header">
-		<h1>Timecard 1036</h1>
+		<h1>Timecard 1039</h1>
 	</div>
 	<form id="timecard" action="http://www.opadoc.com/timecard">
 		<label for="h">H</label>
@@ -45,6 +45,7 @@ $("#timecard").submit(function(e) {
 		alert(data);
 	})
 	    .fail(function(jqXHR, textStatus, errorThrown) {
+		alert("error " + textStatus);
 		console.log("error " + textStatus);
 		console.log("incoming Text " + jqXHR.responseText);
 		console.log(errorThrown);
