@@ -1,6 +1,6 @@
 ---
 layout: page
 title: "About"
-permalink: https://basilhayek.com/about
+permalink: https://www.basilhayek.com/about
 ---
 # About Me
