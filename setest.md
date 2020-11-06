@@ -1,6 +1,4 @@
----
 
+This draft was updated on prose.io.
+* Bullets
 
----
-
-This draft was updated on dilinger.
