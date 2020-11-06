@@ -3,5 +3,4 @@
 
 ---
 
-<p>This is a draft.</p>
-
+This draft was updated on dilinger.
