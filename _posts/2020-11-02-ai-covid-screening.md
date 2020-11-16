@@ -1,5 +1,6 @@
 ---
 title: AI COVID Screening
+published: false
 ---
 The healthcare field has seen a lot of innovations in which machine learning is applied to audio recordings to triage or diagnose a condition or disease. A few years back, I learned of Winterlight, who is using voice recordings to diagnose Alzheimer's. What immediately comes to mind is the potential to monitor the progression of Alzhemier's through a smart speaker while at the same time giving them a companion who can assist them with day-to-day activities and bring them back to the moments and music of their earlier days. <Other examples> Of course now, in the midst of a pandemic, it's not unexpected that we learn of a machine learning algorithm that can identify COVID19 in a cough with stunning accuracy. The ability to quickly triage whether a person might have COVID, and do so without a trip to a testing site, and with a turnaround measured in seconds could have a huge impact in changing the course of the pandemic. But the question is whether the algorithm performs as well as it is supposed to. Gizmodo says this:
 
