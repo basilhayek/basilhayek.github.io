@@ -1,7 +1,5 @@
 ---
-
-
+published: false
 ---
-
-<p>This is a draft.</p>
+I write about technology and healthcare.
 
