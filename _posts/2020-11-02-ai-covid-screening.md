@@ -6,7 +6,10 @@ The healthcare industry has seen a number of innovations which center on using m
 
 My first exposure to this field was [Winterlight Labs](https://winterlightlabs.com/), who developed technology that uses voice recordings to diagnose Alzheimer's. Similar efforts by other organizations have assessed [loneliness, psychosis, PTSD, and depression](https://newatlas.com/health-wellbeing/ai-loneliness-natural-speech-language/).
 
-Recently, news broke of maching learning being used to identify COVID-19 in a subject simply by listening to their cough--regardless of whether the cough was genuine or forced. I first read about this on [Gizmodo](https://gizmodo.com/this-ai-can-tell-if-you-have-covid-19-just-by-listening-1845540851), where the stated that the algorithm was "ridiculously accurate":
+Recently, news broke of maching learning being used to identify COVID-19 in a subject simply by listening to their cough.
+<!--excerpt-->
+
+I first read about this on [Gizmodo](https://gizmodo.com/this-ai-can-tell-if-you-have-covid-19-just-by-listening-1845540851), where the stated that the algorithm was "ridiculously accurate":
 
 > The difference between a healthy person’s cough and the cough of someone infected with the virus is so slight that it’s imperceptible to the human ear. So the team developed an AI to detect these minute differences using tens of thousands of recorded samples of coughs and spoken words. And it’s been ridiculously accurate in early tests, recognizing 98.5% of coughs from people with confirmed covid-19 cases, and 100% of coughs from asymptomatic people.
 
