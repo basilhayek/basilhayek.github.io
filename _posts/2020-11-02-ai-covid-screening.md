@@ -9,7 +9,7 @@ My first exposure to this field was [Winterlight Labs](https://winterlightlabs.c
 Recently, news broke of maching learning being used to identify COVID-19 in a subject simply by listening to their cough.
 <!--excerpt-->
 
-I first read about this on [Gizmodo](https://gizmodo.com/this-ai-can-tell-if-you-have-covid-19-just-by-listening-1845540851), where the stated that the algorithm was "ridiculously accurate":
+I first read about this on [Gizmodo](https://gizmodo.com/this-ai-can-tell-if-you-have-covid-19-just-by-listening-1845540851), where they stated that the algorithm was "ridiculously accurate":
 
 > The difference between a healthy person’s cough and the cough of someone infected with the virus is so slight that it’s imperceptible to the human ear. So the team developed an AI to detect these minute differences using tens of thousands of recorded samples of coughs and spoken words. And it’s been ridiculously accurate in early tests, recognizing 98.5% of coughs from people with confirmed covid-19 cases, and 100% of coughs from asymptomatic people.
 
