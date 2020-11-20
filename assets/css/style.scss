@@ -1,5 +1,5 @@
 ---
 ---
 
-@import "minima/skins/{{ site.minima.skin | default: 'classic' }}";
-@import "minima/initialize";
+@import "https://raw.githubusercontent.com/jekyll/minima/master/_sass/minima/skins/minima/skins/{{ site.minima.skin | default: 'classic' }}";
+@import "https://raw.githubusercontent.com/jekyll/minima/master/_sass/minima/initialize";
