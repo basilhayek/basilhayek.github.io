@@ -12,6 +12,11 @@ minima:
     github: basilhayek
     instagram: basilhayek
     linkedin: basilhayek
+    
+twitter_username: basilhayek
+github_username:  basilhayek
+instagram_username: basilhayek
+linkedin_username: basilhayek
 
 gems:
   - jekyll-mentions
