@@ -4,6 +4,7 @@ google_analytics:
 show_downloads: false
 show_excerpts: true
 theme: minima
+excerpt_separator: "<!--excerpt-->"
 
 gems:
   - jekyll-mentions
