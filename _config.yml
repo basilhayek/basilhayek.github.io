@@ -6,5 +6,12 @@ show_excerpts: true
 theme: minima
 excerpt_separator: "<!--excerpt-->"
 
+minima:
+  social_links:
+    twitter: basilhayek
+    github: basilhayek
+    instagram: basilhayek
+    linkedin: basilhayek
+
 gems:
   - jekyll-mentions
