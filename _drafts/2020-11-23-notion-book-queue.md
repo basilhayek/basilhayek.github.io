@@ -1,0 +1,36 @@
+---
+published: false
+---
+I have a problem with books. I might say that I buy too many. Perhaps this is true, but the reality is I finish too few.
+
+I always find books that pique my interest (thanks Amazon recommendations!) and end up either buying them (thanks Amazon digital credits!) or if I'm being a bit more disciplined, I just download a sample. But this leads to an ever growing queue on my Kindle app.
+
+I'd love to have a set of "slots" to manage the different kinds of book I'm reading. For me, this would probably mean a slot each for fiction and short stories, and then a few slots for different kinds of non-fiction. Perhaps a slot for non-fiction books that I want to be able to think deeply about, a slot for quick hits, and a slot for something in the middle. 
+
+The collection feature on Amazon's Kindle devices and app are lackluster at best. App collections don't sync with devices, and they don't support the concept of queues. They also require a few steps to add a book to a collection (e.g., send the book to Kindle, click the hamburger / overflow menu, click Add to Collection, choose the collection, then click OK). Five steps. I want to add books to my queue more quickly.
+
+I've seen different reading dashboards on Notion, and so I'm thinking that I'll manage my book queue there.
+
+## The idea
+
+I have a little SMS app that I call "MyScribe" which is an extremely rudimentary list building app. I use it for quick notes, and to catalog my son's ever-expanding collection of Lego.
+
+My plan is to be able to:
+1. Send an SMS containing an Amazon URL, Good Reads URL, or book title and category tag
+2. Have the book information (cover art, title, author) pulled and added to a Notion list
+
+### Components
+
+I'll need three components for this. I'll start with Notion and work backwards from there.
+[] MyScribe: need to update it to correctly interpret a book URL
+[] Good Reads: need to be able to extract book information
+[] Notion: create a new entry with the cover art, title, and author in the appropriate list
+
+## Notion
+
+Notion does not have a formal API, but there are unofficial APIs that are the result of [reverse engineering the underlying Notion calls](https://medium.com/@jamiealexandre/introducing-notion-py-an-unofficial-python-api-wrapper-for-notion-so-603700f92369) and creating a library around that. I'll be using Jamie Alexandre's [notion-py](https://github.com/jamalex/notion-py).
+
+### Getting set up
+
+For the initial exploration, I'm going to use [repl.it](https://repl.it/@basilhayek/Notion-Sample#main.py) to play around with the API. Access to Notion requires a token embedded in a cookie. Since I want to keep this safe, I'll be using a [.env file on repl.it](https://docs.repl.it/repls/secret-keys) to store it.
+
