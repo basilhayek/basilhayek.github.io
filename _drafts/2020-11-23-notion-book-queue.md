@@ -32,5 +32,30 @@ Notion does not have a formal API, but there are unofficial APIs that are the re
 
 ### Getting set up
 
-For the initial exploration, I'm going to use [repl.it](https://repl.it/@basilhayek/Notion-Sample#main.py) to play around with the API. Access to Notion requires a token embedded in a cookie. Since I want to keep this safe, I'll be using a [.env file on repl.it](https://docs.repl.it/repls/secret-keys) to store it.
+For the initial exploration, I'm going to use [repl.it](https://repl.it/@basilhayek/Notion-Sample#main.py) to play around with the API. Access to Notion requires a token embedded in a cookie. Since I want to keep this safe, I'll be using a [.env file on repl.it](https://docs.repl.it/repls/secret-keys) to store it. A quick test using an incognito window shows that anything I put into the .env file will not be visible to anyone else viewing the public repl.
+
+After dropping in this code and doing a test run, it looks like I'm ready to go--but that's for next time.
+
+> import os
+from notion.client import NotionClient
+
+# Obtain the `token_v2` value by inspecting your browser cookies on a logged-in (non-guest) session on Notion.so
+secret_token = os.getenv("TOKEN")
+
+if secret_token:
+  client = NotionClient(token_v2=secret_token)
+
+  test_page = os.getenv("TEST_PAGE")
+
+  # Replace this URL with the URL of the page you want to edit
+  page = client.get_block(test_page)
+
+  print("The old title is:", page.title)
+
+  # Note: You can use Markdown! We convert on-the-fly to Notion's internal formatted text data structure.
+  page.title = "The title has now changed, and has *live-updated* in the browser!"
+else:
+  print("Fork this and create your own .env file with your TOKEN and TEST_PAGE")
+
+
 
