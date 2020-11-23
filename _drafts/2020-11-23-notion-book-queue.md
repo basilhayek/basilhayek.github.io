@@ -36,10 +36,11 @@ For the initial exploration, I'm going to use [repl.it](https://repl.it/@basilha
 
 After dropping in this code and doing a test run, it looks like I'm ready to go--but that's for next time.
 
-> import os
+```python
+import os
 from notion.client import NotionClient
 
-# Obtain the `token_v2` value by inspecting your browser cookies on a logged-in (non-guest) session on Notion.so
+# Obtain the token_v2 value by inspecting your browser cookies on a logged-in (non-guest) session on Notion.so
 secret_token = os.getenv("TOKEN")
 
 if secret_token:
@@ -56,6 +57,6 @@ if secret_token:
   page.title = "The title has now changed, and has *live-updated* in the browser!"
 else:
   print("Fork this and create your own .env file with your TOKEN and TEST_PAGE")
-
+```
 
 
