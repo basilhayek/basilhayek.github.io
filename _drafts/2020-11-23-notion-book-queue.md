@@ -33,6 +33,11 @@ Notion does not have a formal API, but there are unofficial APIs that are the re
 ### Getting set up
 
 For the initial exploration, I'm going to use [repl.it](https://repl.it/@basilhayek/Notion-Sample#main.py) to play around with the API. Access to Notion requires a token embedded in a cookie. Since I want to keep this safe, I'll be using a [.env file on repl.it](https://docs.repl.it/repls/secret-keys) to store it. A quick test using an incognito window shows that anything I put into the .env file will not be visible to anyone else viewing the public repl.
+![Able to view token as repl owner](https://cdn.basilhayek.com/02-notion-book-queue/01-repl-it-owned-access-test.png)
+*Able to view token as repl owner*
+
+![Not able to view the token as a guest](https://cdn.basilhayek.com/02-notion-book-queue/02-repl-it-guest-access-test.png)
+*Not able to view the token as a guest (phew)*
 
 After dropping in this code and doing a test run, it looks like I'm ready to go--but that's for next time.
 
