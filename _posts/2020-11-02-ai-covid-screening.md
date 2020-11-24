@@ -58,7 +58,7 @@ Let's assume we randomly test 100,000 people:
 *   5,742 people would be flagged as having COVID that do not have it (100,000 x 0.99 x 0.058)
 
 
-![A visual representation of false positives](https://storage.googleapis.com/basilhayek-site-images/01_ai_powered_covid_screening/false_positive_1.png) 
+![A visual representation of false positives](https://cdn.basilhayek.com/01_ai_powered_covid_screening/false_positive_1.png) 
 
 In summary, for every 1 person correctly identified as having COVID, approximately six more would be flagged that don't actually have COVID. Is this a bad thing? I don't know. 
 
