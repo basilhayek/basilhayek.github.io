@@ -48,7 +48,7 @@ Lets put this into the context of the current pandemic.
 
 First, we need an estimate of the true prevalence of COVID-19 in a populatio. This is either hard to find, or my Google skills are not as good as I thought. 
 
-I found information on [predictive active cases in California](https://www.cpp.edu/~clange/covid19/Covid19ReportCaliforniaIntAct.html), but this depends on confirmed cases. Estimates of people who are asymptomatic, and therefore might not be tested, range from [20%](https://www.healthline.com/health-news/20-percent-of-people-with-covid-19-are-asymptomatic-but-can-spread-the-disease) to [45%](https://www.acpjournals.org/doi/10.7326/M20-3012). And even those people who are symptomatic might not be tested. So to make things simple, I'll use 1% as the current COVID infection rate. 
+I found information on [predicted active cases in California](https://www.cpp.edu/~clange/covid19/Covid19ReportCaliforniaIntAct.html), but this depends on confirmed cases. Estimates of people who are asymptomatic, and therefore might not be tested, range from [20%](https://www.healthline.com/health-news/20-percent-of-people-with-covid-19-are-asymptomatic-but-can-spread-the-disease) to [45%](https://www.acpjournals.org/doi/10.7326/M20-3012). And even those people who are symptomatic might not be tested. So to make things simple, I'll use 1% as the current COVID infection rate. 
 
 Let's assume we randomly test 100,000 people:
 
