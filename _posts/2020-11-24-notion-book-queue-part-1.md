@@ -6,6 +6,7 @@ I have a problem with books. I might say that I buy too many. Perhaps this is tr
 I always find books that pique my interest (thanks Amazon recommendations!) and end up either buying them (thanks Amazon digital credits!) or if I'm being a bit more disciplined, I just download a sample. But this leads to an ever growing queue on my Kindle app.
 
 I'd love to have a set of "slots" to manage the different kinds of book I'm reading. For me, this would probably mean a slot each for fiction and short stories, and then a few slots for different kinds of non-fiction. Perhaps a slot for non-fiction books that I want to be able to think deeply about, a slot for quick hits, and a slot for something in the middle. 
+<!--excerpt-->
 
 The collection feature on Amazon's Kindle devices and app are lackluster at best. App collections don't sync with devices, and they don't support the concept of queues. They also require a few steps to add a book to a collection (e.g., send the book to Kindle, click the hamburger / overflow menu, click Add to Collection, choose the collection, then click OK). Five steps. I want to add books to my queue more quickly.
 
