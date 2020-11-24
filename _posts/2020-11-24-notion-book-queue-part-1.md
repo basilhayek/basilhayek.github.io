@@ -1,5 +1,5 @@
 ---
-title: notion-book-queue-part-1
+title: "Creating a Reading Queue in Notion: Part 1"
 ---
 I have a problem with books. I might say that I buy too many. Perhaps this is true, but the reality is I finish too few.
 
