@@ -13,10 +13,10 @@ I've seen different reading dashboards on Notion, and so I'm thinking that I'll 
 
 ## The idea
 
-I have a little SMS app that I call "MyScribe" which is an extremely rudimentary list building app. I use it for quick notes, and to catalog my son's ever-expanding collection of Lego.
+I built a little SMS app that I call "MyScribe" that is a rudimentary list building app. I use it for quick notes, and to catalog my son's ever-expanding collection of Lego.
 
 My plan is to be able to:
-1. Send an SMS containing an Amazon URL, Good Reads URL, or book title and category tag
+1. Send an SMS to MyScribe containing an Amazon URL, Good Reads URL, or book title and category tag
 2. Have the book information (cover art, title, author) pulled and added to a Notion list
 
 ### Components
@@ -39,7 +39,7 @@ For the initial exploration, I'm going to use [repl.it](https://repl.it/@basilha
 ![Not able to view the token as a guest](https://cdn.basilhayek.com/02-notion-book-queue/02-repl-it-guest-access-test.png)
 *Not able to view the token as a guest (phew)*
 
-After dropping in this code and doing a test run, it looks like I'm ready to go--but that's for next time.
+So next to run the example from Jamie Alexandre's repo and make sure everything works:
 
 ```python
 import os
@@ -63,3 +63,11 @@ if secret_token:
 else:
   print("Fork this and create your own .env file with your TOKEN and TEST_PAGE")
 ```
+
+After a quick test run, it looks like I'm ready to go--but that's for next time.
+
+![Running my script and seeing it pull the current page title](https://cdn.basilhayek.com/02-notion-book-queue/03-repl-it-updated-page.png)
+*Running my script and seeing it pull the current page title*
+
+![Seeing the updated page name in Notion](https://cdn.basilhayek.com/02-notion-book-queue/04-notion-page-updated-title.png)
+*Seeing the updated page name in Notion*
