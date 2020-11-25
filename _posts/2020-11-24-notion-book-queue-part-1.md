@@ -23,9 +23,9 @@ My plan is to be able to:
 ### Components
 
 I'll need three components for this. I'll start with Notion and work backwards from there.
-- [ ] **MyScribe**: need to update it to correctly interpret a book URL
-- [ ] **Good Reads**: need to be able to extract book information
-- [ ] **Notion**: create a new entry with the cover art, title, and author in the appropriate list
+- **MyScribe**: need to update it to correctly interpret a book URL
+- **Good Reads**: need to be able to extract book information
+- **Notion**: create a new entry with the cover art, title, and author in the appropriate list
 
 ## Notion
 
