@@ -34,10 +34,10 @@ Notion does not have a formal API, but there are unofficial APIs that are the re
 ### Getting set up
 
 For the initial exploration, I'm going to use [repl.it](https://repl.it/@basilhayek/Notion-Sample#main.py) to play around with the API. Access to Notion requires a token embedded in a cookie. Since I want to keep this safe, I'll be using a [.env file on repl.it](https://docs.repl.it/repls/secret-keys) to store it. A quick test using an incognito window shows that anything I put into the .env file will not be visible to anyone else viewing the public repl.
-![Able to view token as repl owner](https://cdn.basilhayek.com/02-notion-book-queue_1/01-repl-it-owned-access-test.png)
+![Able to view token as repl owner](https://cdn.basilhayek.com/02_notion_book_queue_1/01-repl-it-owned-access-test.png)
 *Able to view token as repl owner*
 
-![Not able to view the token as a guest](https://cdn.basilhayek.com/02-notion-book-queue_1/02-repl-it-guest-access-test.png)
+![Not able to view the token as a guest](https://cdn.basilhayek.com/02_notion_book_queue_1/02-repl-it-guest-access-test.png)
 *Not able to view the token as a guest (phew)*
 
 So next to run the example from Jamie Alexandre's repo and make sure everything works:
@@ -67,8 +67,8 @@ else:
 
 After a quick test run, it looks like I'm ready to go--but that's for next time.
 
-![Running my script and seeing it pull the current page title](https://cdn.basilhayek.com/02-notion-book-queue_1/03-repl-it-updated-page.png)
+![Running my script and seeing it pull the current page title](https://cdn.basilhayek.com/02_notion_book_queue_1/03-repl-it-updated-page.png)
 *Running my script and seeing it pull the current page title*
 
-![Seeing the updated page name in Notion](https://cdn.basilhayek.com/02-notion-book-queue_1/04-notion-page-updated-title.png)
+![Seeing the updated page name in Notion](https://cdn.basilhayek.com/02_notion_book_queue_1/04-notion-page-updated-title.png)
 *Seeing the updated page name in Notion*
