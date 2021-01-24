@@ -30,7 +30,7 @@ We're making generous assumptions and simplifications here.
 ### The Result
 In the matrix below, the orange shaded box shows how we expect the game to play out. Given that neither player knows that the other will do, it is preferrable for them to avoid the payout of 0, which could be a possiblity if they choose to stay home. If they choose to go out, the least value they'll get is 3.
 
-![The Payoff Matrix for the COVID Prisoner's Dilemma shows that individuals will choose to "defect" and reach a sub-optimal game state]({{site.baseurl}}/https://bhassets.b-cdn.net/04_covid_prisoners_dilemma/01-stay-at-home-prisoners-dilemma-matrix.png)
+![The Payoff Matrix for the COVID Prisoner's Dilemma shows that individuals will choose to "defect" and reach a sub-optimal game state](https://bhassets.b-cdn.net/04_covid_prisoners_dilemma/01-stay-at-home-prisoners-dilemma-matrix.png)
 
 A simple way to look at this is by examining the decision two individuals need to make on whether to stay at home or socialize with friends. The value of going out is high; we'll arbitarily assign a value of 8 to this choice. This of course assumes that the pandemic runs its current course without more  - we'll set this arbitarily at 8. The value of 
 
