@@ -3,9 +3,10 @@ title: COVID-19 and Game Theory
 ---
 ## COVID-19 and Game Theory
 
-Over the break I had a chance to do some reading. I skew towards non-fiction and wanted something that would get me thinking and was light enough to handle regular interruptions. 
+Over the holiday break, I took advantage of the downtime to finally do some reading. I skew towards non-fiction and found a lightweight book on game theory that refreshed my thinking on a fascinating course I took 20 years ago.  
 
-Properly primed, when reading news on COVID and individual's responses to social distancing, it became obvious that the choice to follow mandates or ignore them was a version of the prisoner's dilemma.
+Thus primed, when following the news on COVID-19 and individuals' responses to social distancing, it dawned on me that the choice to follow mandates or ignore them was a version of the prisoner's dilemma. I decided to explore this a bit further with a basic scenario.
+<!--excerpt-->
 
 ### Scenario
 For this prisoner's dilemma scenario, let's imagine our two players live in a city where COVID-19 rates have been increasing. The mayor has closed most business and put in place a stay-at-home advisory--but not an order--for the next three weeks. Players must decide between going out and socializing with friends or sitting on their couch and watching Netflix.
