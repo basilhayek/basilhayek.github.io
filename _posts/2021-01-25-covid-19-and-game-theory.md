@@ -1,8 +1,6 @@
 ---
 title: COVID-19 and Game Theory
 ---
-## COVID-19 and Game Theory
-
 Over the holiday break, I took advantage of the downtime to finally do some reading. I skew towards non-fiction and found a lightweight book on game theory that refreshed my thinking on a fascinating course I took 20 years ago.  
 
 Thus primed, when following the news on COVID-19 and individuals' responses to social distancing, it dawned on me that the choice to follow mandates or ignore them was a version of the prisoner's dilemma. I decided to explore this a bit further with a basic scenario.
