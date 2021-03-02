@@ -3,7 +3,7 @@ title: COVID-19 Digital Surveillance
 ---
 Last month I came across an [article in Nature](https://www.nature.com/articles/s41598-021-81333-1) assessing the use of social media as an early warning for COVID. Naturally, I was intrigued.
 
-But as I read it, I couldn't help but think back to the Google Flu debacle. Google touted--in what was later labeled as "big data hubris"--it's ability to predict flu outbreaks simply by using it's vast amounts of search data. 
+But as I read it, I couldn't help but think back to the Google Flu debacle. Google touted--in what was later labeled as "big data hubris"--its ability to predict flu outbreaks simply by using its vast amounts of search data. 
 
 As we learned, [they couldn't](https://theconversation.com/googles-flu-fail-shows-the-problem-with-big-data-19363#:~:text=Flu%20Trends%20had%20already%20made,size%20of%20the%20initial%20outbreak.). 
 <!--excerpt-->
