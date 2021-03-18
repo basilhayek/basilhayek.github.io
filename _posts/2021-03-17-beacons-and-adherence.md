@@ -2,7 +2,7 @@
 title: Beacons and Adherence
 published: true
 ---
-I recently started taking medicine to help manage my cholesterol levels. I opted for pragmatism as opposed to thinking I'd manage it via diet and exercise alone.
+I recently started taking medicine to help manage my cholesterol levels. I decided this was better than thinking I'd manage it via diet and exercise alone.
 
 Twenty-four days after my first 30-day fill, I have 11 pills left. If I have perfect adherence and refill when I'm out of supply, I'll have a PDC of 86%. As adherence goes, not bad. But if I extrapolate based on my (short) history, I'll be just under that 80% adherence threshold. 
 
