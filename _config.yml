@@ -1,0 +1,22 @@
+title: Basil Hayek
+description: 
+google_analytics: 
+show_downloads: false
+show_excerpts: true
+theme: minima
+excerpt_separator: "<!--excerpt-->"
+
+minima:
+  social_links:
+    twitter: basilhayek
+    github: basilhayek
+    instagram: basilhayek
+    linkedin: basilhayek
+    
+twitter_username: basilhayek
+github_username:  basilhayek
+instagram_username: basilhayek
+linkedin_username: basilhayek
+
+gems:
+  - jekyll-mentions
