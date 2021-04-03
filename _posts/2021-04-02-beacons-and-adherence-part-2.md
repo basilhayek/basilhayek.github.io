@@ -1,16 +1,18 @@
 ---
-published: false
+title: Beacons and Adherence
+published: true
 ---
 I used the word app in my previous post, but that's a bit grand. 
 
 Rather, I'm going to be using a tool called Automate to create a pretotype of my adherence app.
 
-I'm a big believer in pretotyping. It's a fast way to test out a concept. There's lore about many AI startups really using Amazon Turk and the like to pretotype their solution.
+I'm a big believer in pretotyping. It's a fast way to test out a concept. More than a few "AI-powered" products were [pretotypes powered by humans](https://www.theguardian.com/technology/2018/jul/06/artificial-intelligence-ai-humans-bots-tech-companies) working behind the scenes. 
 
-In this case, I'll be using Automate's drag-and-drop flow builder to model my app's logic. The two key pieces I'll be working with are the ability to detect BLE beacons and then the ability to trigger notifications in the Android notification drawer.
+I'll be using Automate's drag-and-drop flow builder to model my app's logic. My two key needs are the ability to detect Bluetooth Low Energy (BLE) beacons and trigger notifications in the Android notification drawer.
 ![A medication reminder notification with a pill emoji](https://cdn.basilhayek.com/07_ble_adherence_part_2/01_medication_reminder.png)
+<!--excerpt-->
 
-After experimenting with the different modes of my beacon, I opted to use iBeacon protocol, which broadcasts a UUID on a regular basis. I configured the beacon so that the UUID changes after I push the button on the beacon. This will be how I indicate that I have taken my medicine.
+After experimenting with the different modes of my beacon, I opted to use iBeacon protocol, which broadcasts a universally unique idenfier (UUID) on a regular basis. I configured the beacon so that the UUID changes after I push the button on the beacon. This will be how I indicate that I have taken my medicine.
 
 The high-level logic is:
 1. Are we in the time window when I should be take my medicine? If not, wait until then
