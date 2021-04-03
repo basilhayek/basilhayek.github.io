@@ -1,5 +1,5 @@
 ---
-title: Beacons and Adherence
+title: Beacons and Adherence Part 2
 published: true
 ---
 I used the word app in my previous post, but that's a bit grand. 
