@@ -1,5 +1,6 @@
 ---
 title: Beacons and Adherence Part 2
+description: Using Automate for Android to pretotype a medication adherence app that uses Bluetooth Low Energy (BLE) beacons to provide contextual reminders on taking medication
 published: true
 ---
 I used the word app in my previous post, but that's a bit grand. 
